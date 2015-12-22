@@ -5,6 +5,7 @@ class ApplicationController < ActionController::Base
 
   def hello
     # render text: "hello, world!"
-    render text: "\u00A1".encode('utf-8')+"Hola, mundo!" 
-  end
+    # render text: "\u00A1".encode('utf-8')+"Hola, mundo!" 
+    render text: "goodbye"
+   end
 end
